@@ -22,7 +22,7 @@
 % Identificacao
 %=======================================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{RBIEarticle}[2020/10/17 v2.1 Artigos para a RBIE]
+\ProvidesClass{RBIEarticle}[2021/03/08 v3.0 Artigos para a RBIE]
 
 %=======================================================================
 % Declaracoes basicas
@@ -127,7 +127,7 @@
 	\def\codename{Code}
 }
 \@namedef{captionsbrazilian}{
-	\def\bibname{Refer{\^e}ncias}
+	\def\refname{Refer{\^e}ncias}
 	\def\abstractname{Resumo}
 	\def\appendixname{Ap{\^e}ndice}
 	\def\corollaryname{Corol\'{a}rio}

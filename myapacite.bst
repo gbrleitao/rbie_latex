@@ -3950,7 +3950,7 @@ FUNCTION {format.doi}
     % format optional note
     %
 FUNCTION {format.note}
-{ "\APACrefnote{"   "}"  note  bracket.check }
+{ "\APACrefnote{"   "}"  note  enclose.check }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %
@@ -4728,16 +4728,17 @@ FUNCTION {thesis}
       %
       % format optional note
       %
-  note empty$
-    'skip$
-    { % Clear the stack
-      duplicate$ empty$
-        'skip$
-        { output.new.block }
-      if$
-      format.note
-    }
-  if$
+%  note empty$
+%    'skip$
+%    { % Clear the stack
+%      duplicate$ empty$
+%        'skip$
+%        { output.new.block }
+%      if$
+%      format.note
+%    }
+%  if$
+  format.orig.note
   fin.entry
 }
 

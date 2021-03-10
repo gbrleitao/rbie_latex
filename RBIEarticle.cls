@@ -145,6 +145,9 @@
 	\def\tablename{Tabela}
 	\def\keywordsname{Palavras-chave}
 	\def\codename{C{\'o}digo}
+	\renewcommand{\BBAA}{e}  % between authors in parenthetical cites and ref. list
+	\renewcommand{\BBAB}{e}  % between authors in in-text citation
+	\renewcommand{\BAnd}{e}  % for ``Ed. \& Trans.'' in ref. list	
 }
 
 %=======================================================================
